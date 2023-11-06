@@ -31,6 +31,7 @@ static vector<Point> sampleContour( const Mat& image, int n=300 ) {
       sampled.push_back(all_points[i]);
     return sampled;
   }
+  return vector<Point> {};
 }
 
 void help(char** argv) {
@@ -38,7 +39,7 @@ void help(char** argv) {
        << "\nNOTE: See images to try in ../shape_sample/\n"
        << "\nCall:\n" << argv[0] << " <path/image_1> <path/image2>\n"
        << "\nMISSMATCH Example:\n" << argv[0] << "  ../shape_sample/1.png ../shape_sample/3.png\n"
-       << "\MATCH Example:\n" << argv[0] << "  ../shape_sample/3.png ../shape_sample/4.png\n"       
+       << "\nMATCH Example:\n" << argv[0] << "  ../shape_sample/3.png ../shape_sample/4.png\n"       
        << endl;
 }
 

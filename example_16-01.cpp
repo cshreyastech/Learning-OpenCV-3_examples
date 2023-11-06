@@ -3,6 +3,8 @@
 #include <iostream>
 #include <vector>
 #include <opencv2/opencv.hpp>
+#include "opencv2/videoio/legacy/constants_c.h"
+#include "opencv2/imgcodecs/legacy/constants_c.h"
 
 static const int MAX_CORNERS = 1000;
 using std::cout;

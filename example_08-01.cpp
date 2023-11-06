@@ -4,6 +4,8 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
+#include "opencv2/videoio/legacy/constants_c.h"
+
 
 using namespace std;
 void help(char** argv ) {

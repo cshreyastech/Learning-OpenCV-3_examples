@@ -1,8 +1,17 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.0.0)
 
 project( examples )
 
-find_package( OpenCV REQUIRED )
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
+find_package( OpenCV 
+  NO_DEFAULT_PATH
+  PATHS "/mnt/hd/disk2/softwares/OpenCV/installation/OpenCV"
+  REQUIRED 
+  )
+
 find_package( OpenGL )
 
 if(OPENGL_FOUND)
@@ -83,7 +92,7 @@ add_executable( example_19-04 example_19-04.cpp )
 add_executable( example_20-01 example_20-01.cpp )
 add_executable( example_20-02 example_20-02.cpp )
 add_executable( example_21-01 example_21-01.cpp )
-add_executable( example_22-01 example_22-01.cpp )
+# add_executable( example_22-01 example_22-01.cpp )
 
 # NOW COMPILE SOME ANSWERS TO EXERCISES:
 add_executable( Exercises_5   Exercises_5.cpp   )
@@ -163,7 +172,7 @@ target_link_libraries( example_19-04 ${OpenCV_LIBS} )
 target_link_libraries( example_20-01 ${OpenCV_LIBS} )
 target_link_libraries( example_20-02 ${OpenCV_LIBS} )
 target_link_libraries( example_21-01 ${OpenCV_LIBS} )
-target_link_libraries( example_22-01 ${OpenCV_LIBS} )
+# target_link_libraries( example_22-01 ${OpenCV_LIBS} )
 
 # NOW LINK EXERCISES 
 target_link_libraries( Exercises_5 ${OpenCV_LIBS} )

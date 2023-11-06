@@ -2,6 +2,7 @@
 // 1、2、5、6 and 7
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include "opencv2/photo/legacy/constants_c.h"
 
 using namespace cv;
 using namespace std;

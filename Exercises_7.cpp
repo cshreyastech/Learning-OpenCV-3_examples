@@ -1,7 +1,12 @@
 //Exercises at end of Chapter 7
 // 1-4
 #include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/opencv_modules.hpp>
+
 #include <iostream>
+#include "opencv2/videoio/legacy/constants_c.h"
+#include "opencv2/core/core_c.h"
 
 using namespace cv;
 using namespace std;

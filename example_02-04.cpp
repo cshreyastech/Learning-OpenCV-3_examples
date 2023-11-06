@@ -6,6 +6,7 @@
 #include <iostream>
 #include <fstream>
 
+#include "opencv2/videoio/legacy/constants_c.h"
 using namespace std;
 
 int g_slider_position = 0;

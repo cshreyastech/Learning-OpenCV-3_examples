@@ -3,6 +3,8 @@
 #include <iostream>
 #include <ctime>
 #include <algorithm>
+#include "opencv2/videoio/legacy/constants_c.h"
+#include "opencv2/core/core_c.h"
 
 using namespace std;
 

@@ -1,6 +1,8 @@
 //Exercises_9_1-2-10-11-12-15-16.cpp Exercises at end of Chapter 8
 #include <opencv2/opencv.hpp>
 #include <iostream>
+#include "opencv2/imgcodecs/legacy/constants_c.h"
+#include "opencv2/imgproc/types_c.h"
 
 using namespace cv;
 using namespace std;

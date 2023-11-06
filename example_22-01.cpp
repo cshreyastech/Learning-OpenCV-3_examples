@@ -8,6 +8,7 @@
 #include "opencv2/objdetect.hpp"
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include "opencv2/imgproc/imgproc_c.h"
 
 using std::cout;
 using std::cerr;
@@ -45,7 +46,7 @@ void detectAndDraw(
         objects,                    // place for the results
         1.1,                        // scale factor
         3,                          // minimum number of neighbors
-        CV_HAAR_DO_CANNY_PRUNING,   // (old format cascades only)
+        // CV_HAAR_DO_CANNY_PRUNING,   // (old format cascades only)
         cv::Size(30, 30));          // throw away detections smaller than this
 
     // Loop through to found objects and draw boxes around them

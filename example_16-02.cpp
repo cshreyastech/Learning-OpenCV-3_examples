@@ -21,6 +21,7 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/core/utility.hpp>
 #include <opencv2/core/ocl.hpp>
+#include "opencv2/imgcodecs/legacy/constants_c.h"
 
 using std::cout;
 using std::cerr;

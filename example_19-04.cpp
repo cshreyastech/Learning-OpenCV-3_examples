@@ -2,6 +2,7 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include <math.h>
+#include "opencv2/imgproc/imgproc_c.h"
 
 using namespace std;
 

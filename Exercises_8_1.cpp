@@ -2,7 +2,8 @@
 //1
 #include <opencv2/opencv.hpp>
 #include <iostream>
-
+#include "opencv2/videoio/legacy/constants_c.h"
+#include "opencv2/imgproc/imgproc_c.h"
 using namespace cv;
 using namespace std;
 

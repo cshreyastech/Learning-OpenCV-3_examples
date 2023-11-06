@@ -3,7 +3,8 @@
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
-
+#include "opencv2/videoio/legacy/constants_c.h"
+#include "opencv2/imgproc/imgproc_c.h"
 
 void help(char** argv ) {
 	std::cout << "\n"
