@@ -102,6 +102,7 @@ add_executable( Exercises_9_1-2-10-11-12-15-16 Exercises_9_1-2-10-11-12-15-16.cp
 add_executable( Exercises_9_4 Exercises_9_4.cpp ) 
 add_executable( Exercises_9_5 Exercises_9_5.cpp )
 add_executable( Exercises_11-1-2-5-6-7 Exercises_11-1-2-5-6-7.cpp )
+add_executable( example_23-01_2D_to3D example_23-01_2D_to3D.cpp )
 
 ################
 ###   LINK   ###
@@ -182,3 +183,4 @@ target_link_libraries( Exercises_9_1-2-10-11-12-15-16 ${OpenCV_LIBS} )
 target_link_libraries( Exercises_9_4 ${OpenCV_LIBS} )
 target_link_libraries( Exercises_9_5 ${OpenCV_LIBS} )
 target_link_libraries( Exercises_11-1-2-5-6-7 ${OpenCV_LIBS} )
+target_link_libraries( example_23-01_2D_to3D ${OpenCV_LIBS} )

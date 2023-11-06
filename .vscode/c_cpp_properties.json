@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/mnt/hd/disk2/softwares/OpenCV/installation/OpenCV/include/opencv4"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/lib/ccache/g++-9",
+      "cStandard": "c17",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "gcc-x64",
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}
